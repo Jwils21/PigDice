@@ -23,7 +23,7 @@ namespace PigDice_revamped_ {
 				
 				GameCntr++;
 				if  (Gamescore>HighScore) { HighScore = Gamescore; }
-				if ((GameCntr % 1000000)==0) {
+				if ((GameCntr % 100000000)==0) {
 					Console.WriteLine("Game {0}, High Score: {1}", string.Format("{0:n0}", GameCntr), HighScore);
 				}
 				Gamescore = 0;
